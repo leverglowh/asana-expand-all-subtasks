@@ -1,0 +1,19 @@
+{
+  "name": "asana-subtasks",
+  "version": "1.0",
+  "description": "Expand all subtasks",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": {
+      "32": "myIcon.png"
+    },
+    "default_title": "Click"
+  },
+  "manifest_version": 2
+}
